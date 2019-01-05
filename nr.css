@@ -1,0 +1,56 @@
+
+.login-box{
+    margin-top: 80px;
+    width:420px;
+    height:640px;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 30px 30px;
+
+
+}
+h1{
+    margin-top:10px;
+    color:black;
+    text-align: center;
+
+}
+.signup-box p{
+    font-size:25px;
+    height: 20px;
+    margin-left: 30%;
+    font-weight:bold;
+}
+.login-box input[type="text"],input[type="password"],input[type="email"]{
+    border:none;
+    height:40px;
+    background:transparent;
+    border-bottom:1px solid #fff;
+    outline:none;
+    color:#fff;
+    font-size:16px;
+    margin-left:5%;
+}
+.login-box input[type="submit"]{
+    border:none;
+    outline:none;
+    height:40px;
+    background:#1c8adb;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left: 5%;
+    text-align: center;
+    width:200px;
+
+}
+.login-box input[type="submit"]:hover{
+    color:black;
+    background-color:lawngreen;
+    cursor: pointer;
+}
